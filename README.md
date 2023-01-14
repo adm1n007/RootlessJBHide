@@ -1,5 +1,5 @@
 # RootlessJBHide
- A Framework for Hide Rootless Jailbreak.
+ A Framework for Hiding Rootless Jailbreak.
 
  It stores all jailbreak files in a random root directory, and splits the running APP into two worlds through a blacklist*, one of which is the jailbreak world that can access the jailbreak environment. The other is the original world that cannot access the jailbreak environments.
 
