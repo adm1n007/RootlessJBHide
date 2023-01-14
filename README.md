@@ -21,7 +21,7 @@
 
 jailbreak undetectable when reboot device and jailbreak deactived.
 
-jailbreak undetectable when put an APP into blacklist* of JBHide.
+jailbreak undetectable when put an APP into blacklist* in JBHide.
 
 ## Usage:
 
@@ -29,13 +29,13 @@ The tweak and app in the jailbreak world can obtain the path of the jb root dire
 
 examples of C/C++ code:
 ```
-    char my_file_path[PATH_MAX]={0};
-    snprintf(my_file_path, sizeof(my_file_path), "%s/my_file_path", getenv("JBRoot"));
+char my_file_path[PATH_MAX]={0};
+snprintf(my_file_path, sizeof(my_file_path), "%s/my_file_path", getenv("JBRoot"));
 ```
 
 examples of Objective-C code:
 ```
-    NSString* my_file_path = [NSString stringWithFormat:@"%s/my_file_path", getenv("JBRoot")];
+NSString* my_file_path = [NSString stringWithFormat:@"%s/my_file_path", getenv("JBRoot")];
 ```
 
 ## Suggestion:
