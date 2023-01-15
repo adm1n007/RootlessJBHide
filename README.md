@@ -27,15 +27,20 @@
 
 The tweak and app in the jailbreak world can obtain the path of the jb root directory through a special environment variable "JBRoot" .
 
-examples of C/C++ code:
+example of C/C++ code:
 ```
 char my_file_path[PATH_MAX]={0};
 snprintf(my_file_path, sizeof(my_file_path), "%s/my_file_path", getenv("JBRoot"));
 ```
 
-examples of Objective-C code:
+example of Objective-C code:
 ```
 NSString* my_file_path = [NSString stringWithFormat:@"%s/my_file_path", getenv("JBRoot")];
+```
+
+example of shell code:
+```
+cd $JBRoot
 ```
 
 ## Suggestion:
